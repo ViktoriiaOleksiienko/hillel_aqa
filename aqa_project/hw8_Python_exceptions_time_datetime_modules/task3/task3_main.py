@@ -1,3 +1,7 @@
+'''Реалізуйте функцію, яка додає або віднімає від заданої дати певну кількість днів. Приймає на вхід будь-яку дату та
+час (datetime), а також значення днів(int), і знак(True або False, які репрезентують + і -).
+Повертає datetime. В цій задачі скористайтесь datetime.timedelta'''
+
 from datetime import datetime, timedelta
 
 def add_or_subtract_days_from_date(input_date, days, add=True):
