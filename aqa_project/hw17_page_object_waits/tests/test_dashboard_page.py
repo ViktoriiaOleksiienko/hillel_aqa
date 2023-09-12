@@ -1,8 +1,8 @@
 import time
 
 
-def test_go_to_discounts(dashboard):
-    dashboard.go_to_discounts()
+def test_go_to_readers_choice(dashboard):
+    dashboard.go_to_readers_choice()
 
 
 def test_go_to_login_form(dashboard):
