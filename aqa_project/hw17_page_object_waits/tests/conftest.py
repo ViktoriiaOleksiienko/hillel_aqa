@@ -23,6 +23,11 @@ def dashboard(driver):
 @pytest.fixture
 def categories(driver):
     driver.get('https://www.yakaboo.ua/ua/knigi/vibir-chitachiv.html')
+    driver.add_cookie({'name': 'flag', 'value': 'red'})
+    print(f'cookie:{driver.get_cookie("flag")}')
+    driver.execute_script("window.localStorage['flag1']='green'")
+    print(driver.execute_script("return window.localStorage['flag1'];"))
+    print(driver.execute_script("return window.localStorage['shop/config/locale'];"))
     yield CategoryPage(driver)
 
 
