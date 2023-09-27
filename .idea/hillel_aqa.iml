@@ -33,6 +33,7 @@
       <sourceFolder url="file://$MODULE_DIR$/aqa_project/hw20_api/instructure" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aqa_project/hw20_api/tests_sw" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aqa_project/hw20_api/infrastructure" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aqa_project/hw21_crud" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
